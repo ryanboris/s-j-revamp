@@ -25,6 +25,10 @@ body {
 header {
   position: relative;
 }
+pre {
+  font-size: 3rem;
+  text-align: justify;
+}
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
@@ -398,7 +402,7 @@ header.header .heading-3 {
   position: absolute;
   top: 190%;
   left: 7%;
-  padding: 6rem;
+  padding: 0rem;
 }
 @media only screen and (max-width: 50em) {
   .story__content {
