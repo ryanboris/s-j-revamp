@@ -377,9 +377,9 @@ header.header .heading-3 {
   }
 }
 .story__content {
-  background-color: #f9f7f6;
-  grid-column: col-start 1 / span 8;
-  padding: 6rem 8vw;
+
+  grid-column: col-start 1 / span 4;
+  padding: 6rem 1vw;
   /*
         display: flex;
         flex-direction: column;
@@ -389,7 +389,16 @@ header.header .heading-3 {
   display: grid;
   align-content: center;
   justify-items: start;
+  position: relative;
 
+}
+
+.story__contentA {
+  display: inline-block;
+  position: absolute;
+  top: 190%;
+  left: 7%;
+  padding: 6rem;
 }
 @media only screen and (max-width: 50em) {
   .story__content {
